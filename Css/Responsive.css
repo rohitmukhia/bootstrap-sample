@@ -15,6 +15,13 @@
     h5{
         font-size: 1.0625rem;
     }
+
+    .blog-wrapper .blog-details{
+        top: 0.3125rem;
+        left: 0.3125rem;
+        right: 0.3125rem;
+        bottom: 0.3125rem;
+    }
 }
 
 @media(max-width: 991px){
@@ -53,9 +60,32 @@
         line-height: 2.1875rem;
     }
 
+    /* About */
+
+    .about-wrapper .client-info:before{
+        top: 0.25rem;
+        left: 2.8125rem;
+
+    }
+
+    .about-wrapper .client-info > div{
+        justify-content: center;
+    }
+
 }
 
 @media(max-width: 575.5px){
+    .blog-wrapper .blog-details{
+        top: 2.1875rem;
+        left: 2.1875rem;
+        right: 2.1875rem;
+        bottom: 2.1875rem;
+    }
+}
 
+@media(max-width: 390px){
+    .banner-wrapper .banner-content h2::after{
+        left: 34%;
+    }
 }
 
